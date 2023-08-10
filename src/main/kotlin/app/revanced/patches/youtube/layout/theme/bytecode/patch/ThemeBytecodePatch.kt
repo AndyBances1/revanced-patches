@@ -29,7 +29,7 @@ class ThemeBytecodePatch : BytecodePatch() {
         var darkThemeBackgroundColor: String? by option(
             PatchOption.StringOption(
                 key = "darkThemeBackgroundColor",
-                default = "@android:color/black",
+                default = "#0A2747",
                 title = "Background color for the dark theme",
                 description = "The background color of the dark theme. Can be a hex color or a resource reference.",
             )
@@ -38,7 +38,7 @@ class ThemeBytecodePatch : BytecodePatch() {
         var lightThemeBackgroundColor: String? by option(
             PatchOption.StringOption(
                 key = "lightThemeBackgroundColor",
-                default = "@android:color/white",
+                default = "#BCD7F5",
                 title = "Background color for the light theme",
                 description = "The background color of the light theme. Can be a hex color or a resource reference.",
             )
